@@ -48,6 +48,7 @@
 .displayValue {
   font-family: 'digit';
   font-size: 70px;
+  padding-left: 18px;
 }
 
 .memorySign {
