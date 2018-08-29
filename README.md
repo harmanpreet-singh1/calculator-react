@@ -36,13 +36,13 @@ Installation
 Some Examples/Screenshots
 -----------
 
-**Normal View**
+**Normal View**                                                                                        
 ![calculator](https://s8.postimg.cc/eraut9ldh/calculator.png)
 
-**Calculator with values**
+**Calculator with values**                                                                           
 ![Cal-with-values](https://s8.postimg.cc/tu2pew3b9/Screen_Shot_2018-08-29_at_9.19.29_PM.png)
 
-**Off View**
+**Off View**                                                                                                                  
 ![off-view](https://s8.postimg.cc/ngdmbu11x/Screen_Shot_2018-08-29_at_10.27.24_PM.png)
 
 Some NPM commands for reference
