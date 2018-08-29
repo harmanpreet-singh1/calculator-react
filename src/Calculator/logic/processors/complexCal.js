@@ -1,3 +1,7 @@
+/********************************************
+ * Complex calculation to perform complex opration like sqrt, float, etc. 
+ ********************************************/
+
 export default function(state, key) {
   const entryKey = state.nextEntry !== null ? "nextEntry" : "currentEntry";
   switch (key.value) {

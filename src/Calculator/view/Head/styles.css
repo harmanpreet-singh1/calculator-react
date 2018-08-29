@@ -1,21 +1,21 @@
-.Head {
+.head {
   padding: 0px 24px;
   width: 100%;
   overflow: hidden;
 }
 
-.Head img {
+.head img {
   width: 80px;
   margin-top: 14px;
   float: left;
 }
 
-.SolarPower {
+.solar-power {
   float: right;
   width: 140px;
 }
 
-.SolarRow {
+.solar-row {
   background: #111;
   border: 4px ridge #706F71;
   box-shadow: inset 0px 5px 5px #000;
@@ -24,14 +24,14 @@
   overflow: hidden;
 }
 
-.SolarRow .cell {
+.solar-row .cell {
   float: left;
   width: calc(20% - 1px);
   border-right: 1px solid rgba(255, 0, 0, 0.4);
   height: 32px;
 }
 
-.Slogan {
+.tag-line {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   line-height: 2;

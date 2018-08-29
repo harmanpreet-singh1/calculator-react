@@ -1,7 +1,7 @@
-import mainProcessor from './main';
-import basicProcessor from './basic';
-import memoryProcessor from './memory';
-import mathProcessor from './math';
+import mainProcessor from './mainFun';
+import basicProcessor from './basicCal';
+import memoryProcessor from './memoryCal';
+import mathProcessor from './complexCal';
 import numberProcessor from './number';
 
 import { keyTypes } from "../constants";

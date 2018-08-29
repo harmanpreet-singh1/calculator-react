@@ -36,10 +36,14 @@ Installation
 Some Examples/Screenshots
 -----------
 
-
+**Normal View**
 ![calculator](https://s8.postimg.cc/eraut9ldh/calculator.png)
 
+**Calculator with values**
+![Cal-with-values](https://s8.postimg.cc/tu2pew3b9/Screen_Shot_2018-08-29_at_9.19.29_PM.png)
 
+**Off View**
+![off-view](https://s8.postimg.cc/ngdmbu11x/Screen_Shot_2018-08-29_at_10.27.24_PM.png)
 
 Some NPM commands for reference
 ---------------
@@ -51,7 +55,7 @@ Some NPM commands for reference
 Enhacements which can be done
 ----------------
 
-- We can use redux for storing the state at one place.
+- We can also use redux for the state management.
 - Keyboard support can be added.
 - Mobile view can be added.
 

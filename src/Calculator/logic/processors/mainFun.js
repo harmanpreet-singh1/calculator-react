@@ -1,3 +1,7 @@
+/********************************************
+ * Main function for handling calculator main functionality i.e. On, Off or Clear field. 
+ ********************************************/
+
 export default function(state, key) {
 
   switch (key.value) {

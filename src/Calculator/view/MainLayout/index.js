@@ -1,3 +1,8 @@
+/********************************************
+ * Author: Harmanpreet Singh
+ * Date: 29th Aug 2018
+ ********************************************/
+
 import React, { PureComponent } from "react";
 import { keyTypes } from "../../logic/constants";
 import keys from "./keys";
@@ -5,6 +10,9 @@ import layout from "./layout";
 import "./styles.css";
 
 class KeyLayout extends PureComponent {
+/********************************************
+ * Button Rendering will start with this function
+ ********************************************/
   renderKey = (key, cellIndex) => (
     <div className={`cell ${key.extraClass}`} key={cellIndex}>
       {key.label && (
@@ -12,7 +20,9 @@ class KeyLayout extends PureComponent {
       )}
     </div>
   );
-
+ /********************************************
+ * Calculator columns will start rendering from here.
+ ********************************************/
   renderCell = (cell, cellIndex) => {
     let key = {
       extraClass: "",
@@ -39,9 +49,9 @@ class KeyLayout extends PureComponent {
 
   render() {
     return (
-      <div className="KeyLayout">
+      <div className="key-layout">
         {layout.map((row, rowIndex) => (
-          <div className="KeyRow" key={rowIndex}>
+          <div className="key-row" key={rowIndex}>
             {row.map((cell, cellIndex) => this.renderCell(cell, cellIndex))}
           </div>
         ))}

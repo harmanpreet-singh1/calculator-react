@@ -1,13 +1,13 @@
-.KeyLayout {
+.key-layout {
   padding: 4px 10px 14px;
 }
 
-.KeyLayout .KeyRow {
+.key-layout .key-row {
   width: 100%;
   position: relative;
 }
 
-.KeyLayout .KeyRow .cell {
+.key-layout .key-row .cell {
   display: inline-block;
   position: relative;
   width: 20%;
@@ -67,22 +67,22 @@ button:active {
     inset 0px 4px 1px 1px rgba(0, 0, 0, .3);
 }
 
-.-red button {
+.red button {
   background: #975265;
   background: linear-gradient(to bottom,#975265 50%,#843A4F 100%);
 }
 
-.-red button:hover {
+.red button:hover {
   background: #c0607b;
   background: linear-gradient(to bottom,#c0607b 30%,rgb(104, 46, 63) 100%);
 }
 
-.-red button:active {
+.red button:active {
   background: #46222c;
   background: linear-gradient(to bottom,#46222c 50%,#682d3d 100%);
 }
 
-.--acbutton button:after {
+.acbutton button:after {
   content: "ON";
   display: block;
   position: absolute;
@@ -95,8 +95,8 @@ button:active {
   text-shadow: none;
 }
 
-.--acbutton:after,
-.--acbutton:before {
+.acbutton:after,
+.acbutton:before {
   z-index: 1;
   position: absolute;
   content: "";
@@ -113,18 +113,18 @@ button:active {
   box-shadow: inset 1px 1px 1px rgba(255,255,255,0.3)
 }
 
-.--acbutton:after {
+.acbutton:after {
   left: auto;
   right: -1px;
   border-radius: 0px 6px 6px 9px;
   transform: skewX(-3deg);
 }
 
-.-small button {
+.small button {
   height: 30px;
 }
 
-.-large button {
+.large button {
   height: 92px;
   z-index: 100;
   position: absolute;

@@ -1,3 +1,6 @@
+/********************************************
+ * Checking number's entry
+ ********************************************/
 export default function(state, key) {
   const { currentEntry, operation } = state;
   const isPending = currentEntry !== null && operation !== null;

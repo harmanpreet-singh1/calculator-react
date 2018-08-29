@@ -1,24 +1,32 @@
+/********************************************
+ * Author: Harmanpreet Singh
+ * Date: 29th Aug 2018
+ ********************************************/
+
 import { keyTypes } from '../../logic/constants';
 const { MAIN, BASIC, MEMORY, MATH } = keyTypes;
 
+/********************************************
+ * exporting all the keys used in the calculator.
+ ********************************************/
 export default [
   {
     type: MAIN,
     value: "off",
     label: "Off",
-    extraClass: "-small"
+    extraClass: "small"
   },
   {
     type: MAIN,
     value: "clear",
     label: "C",
-    extraClass: "-red"
+    extraClass: "red"
   },
   {
     type: MAIN,
     value: "on",
     label: "AC",
-    extraClass: "-red --acbutton"
+    extraClass: "red acbutton"
   },
   {
     type: BASIC,
@@ -49,7 +57,7 @@ export default [
     type: BASIC,
     value: "plus",
     label: "+",
-    extraClass: "-large"
+    extraClass: "large"
   },
   {
     type: MEMORY,
@@ -85,6 +93,6 @@ export default [
     type: MATH,
     value: "sqrt",
     label: "√",
-    extraClass: "-small"
+    extraClass: "small"
   }
 ];

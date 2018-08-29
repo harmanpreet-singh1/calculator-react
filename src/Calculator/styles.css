@@ -1,4 +1,4 @@
-.Calculator {
+.calculator {
   position: relative;
   background: #D0D1D7;
   padding: 14px 6px;
@@ -20,7 +20,7 @@
     inset 0 -15px 15px -15px rgba(0, 0, 0, 0.5);
 }
 
-.Calculator .Screen {
+.calculator .screen {
   background: #6E727B;
   background: linear-gradient(
       to bottom,#4f5053 50%,
@@ -29,7 +29,7 @@
   padding: 18px 14px;
 }
 
-.Calculator .Screen .in {  
+.calculator .screen .in {  
   position: relative;
   overflow: hidden;
   height: 94px;
@@ -45,13 +45,13 @@
   text-align: right;
 }
 
-.displayValue {
+.display-value {
   font-family: 'digit';
   font-size: 70px;
   padding-left: 18px;
 }
 
-.memorySign {
+.memory-sign {
   position: absolute;
   top: 24px;
   left: 0px;
@@ -62,11 +62,11 @@
   font-style: italic;
 }
 
-.Calculator .Pad {
+.calculator .pad {
   position: relative;
 }
 
-.Calculator .Pad .modelText {
+.calculator .pad .model-text {
   position: absolute;
   font-size: 10px;
   top: 2px;

@@ -1,4 +1,8 @@
-import { calculate } from './basic';
+/********************************************
+ * Memory function for handling calculator memory fields i.e. M+, M-, Mr, Mc. 
+ ********************************************/
+
+import { calculate } from './basicCal';
 
 export default function(state, key) {
   const entryKey = state.nextEntry !== null ? "nextEntry" : "currentEntry";

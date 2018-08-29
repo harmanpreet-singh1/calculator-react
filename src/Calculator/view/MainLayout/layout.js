@@ -1,6 +1,9 @@
 import { keyTypes } from "../../logic/constants";
 const { MAIN, BASIC, MEMORY, MATH } = keyTypes;
 
+/********************************************
+ * Made a hierarchy of the buttons as per the requirement. So, it will align accordingly. 
+ ********************************************/
 export default [
   ["", "", "", `${MATH}.sqrt`, `${MAIN}.off`],
   [

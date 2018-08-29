@@ -1,4 +1,4 @@
-import process from "./process";
+import process from "./processKey";
 import { keyTypes } from "Calculator/logic/constants";
 import { initialState } from "Calculator";
 const { BASIC } = keyTypes;

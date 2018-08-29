@@ -1,3 +1,7 @@
+/********************************************
+ * Basic calculation to perform plus, minus, multiply, divide and percentage opration. 
+ ********************************************/
+
 export default function(state, key) {
   const { currentEntry, nextEntry } = state;
   const { value } = key;

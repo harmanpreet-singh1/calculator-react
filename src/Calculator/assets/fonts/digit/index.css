@@ -1,3 +1,6 @@
+/*********************************************
+* These are the same fonts used on Casio calculator
+*********************************************/
 @font-face {
   font-family: 'digit';
   src: url('digit.woff2') format('woff2'),
