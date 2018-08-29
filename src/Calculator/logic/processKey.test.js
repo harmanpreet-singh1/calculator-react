@@ -1,8 +1,18 @@
 import process from "./processKey";
-import { keyTypes } from "Calculator/logic/constants";
-import { initialState } from "Calculator";
-const { BASIC } = keyTypes;
+import { keyTypes } from "./constants";
 
+const { BASIC } = keyTypes;
+const initialState = {
+  open: false,
+  currentEntry: 0,
+  nextEntry: null,
+  operation: null,
+  float: false,
+  memory: null,
+  automaticTurnOff: null,
+  lastAction: null,
+  lastCalculation: {},
+};
 it("sums numbers", () => {
   expect(
     process(

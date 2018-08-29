@@ -13,7 +13,7 @@ Architecture Details
 A terrible idea, of course. The problem with the large number of files is to navigate them.
 So, For this reason I structured the application in a effiecent manner.
 ##### Directory Structure :-
-![dir_structure.png](https://s8.postimg.cc/k1ftkjxwl/dir_structure.png)
+![dir_structure.png](https://s8.postimg.cc/65n7jjegl/Screen_Shot_2018-08-29_at_10.37.15_PM.png)
 - As you can see in the above screenshot we have different folders for logic and the view. That means whole calculator logic is in one folder and we are accessing the logic via view folder.
 
 Functionalities
