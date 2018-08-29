@@ -27,7 +27,7 @@
 .solar-row .cell {
   float: left;
   width: calc(20% - 1px);
-  border-right: 1px solid black;
+  border-right: 1px solid rgba(255, 0, 0, 0.4);
   height: 32px;
 }
 
